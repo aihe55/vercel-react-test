@@ -6,7 +6,7 @@ export default function App() {
 
   return (
     <main className="container">
-      <h1>🚀 React on Vercel</h1>
+      <h1>How Smelly You Are</h1>
       <p>If you see this, everything is wired correctly.</p>
 
       <div className="card">
