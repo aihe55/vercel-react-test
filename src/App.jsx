@@ -6,18 +6,17 @@ export default function App() {
 
   return (
     <main className="container">
-      <h1>How Smelly You Are</h1>
-      <p>If you see this, everything is wired correctly.</p>
+      <h1>☝️ How Smelly You Are ☝️</h1>
+      <p>Click the button to see how smelly you are.</p>
 
       <div className="card">
-        <p><strong>Domain:</strong> akon-ai.com</p>
-        <p><strong>Clicks:</strong> {count}</p>
+        <p><strong>Smelliness :</strong> {count}</p>
         <button onClick={() => setCount(count + 1)}>
           Click me
         </button>
       </div>
 
-      <small>Powered by React + Vite</small>
+      <small>Powered by Aikon 😎</small>
     </main>
   );
 }
