@@ -1,6 +1,6 @@
 .container {
   min-height: 100vh;
-  display: grid;
+  display: flex;
   place-content: center;
   gap: 16px;
   text-align: center;
