@@ -1,35 +1,49 @@
+/* Full reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
+/* Make full height work */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+/* Kill Vite template defaults if any */
+#root {
+  max-width: none;
+  padding: 0;
   margin: 0;
 }
+
+/* Center everything */
 .container {
+  height: 100%;
   width: 100%;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  text-align: center;
   justify-content: center;
   align-items: center;
+  gap: 20px;
+  text-align: center;
   font-family: Arial, sans-serif;
 }
 
+/* Card styling */
 .card {
-  padding: 18px 22px;
+  padding: 20px 25px;
   border: 1px solid #ddd;
   border-radius: 12px;
   display: grid;
-  gap: 10px;
+  gap: 12px;
 }
 
+/* Button styling */
 button {
-  padding: 10px 14px;
-  border: 0;
+  padding: 10px 16px;
+  border: none;
   border-radius: 10px;
   cursor: pointer;
 }
