@@ -4,6 +4,8 @@
   place-content: center;
   gap: 16px;
   text-align: center;
+  justify-content: center;
+  align-item: center;
   font-family: Arial, sans-serif;
 }
 
